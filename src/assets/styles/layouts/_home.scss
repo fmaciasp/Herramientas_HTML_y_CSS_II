@@ -11,9 +11,93 @@ body {
   font-family: $font-family-sans-serif;
   font-size: 16px;
   line-height: 24px;
-  background-color: $uoc-bg;
-  color: $uoc-corporate;
+  //background-color: $uoc-bg;
+  //color: $uoc-corporate;
 }
+
+.carnaval-container {
+  width: 65%;
+  margin: auto;
+}
+
+.nav_detalle{
+  position: relative;
+  flex: auto;
+}
+
+.intro_pagina {
+  width: 67%;
+  margin: auto;
+  padding: 1rem 0 2rem;
+  display: flex;
+  border-bottom: 1px solid #aaa;
+}
+
+.accesos_nav {
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  right: 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding-inline-start: 0;
+}
+
+.item_menu {
+  color: #333;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.li_menu {
+  display: inline-block;
+  position: relative;
+  margin: 0 1rem;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 20px 0 20px;
+  width: 100%;
+}
+
+.active {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.resaltar {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.imagen {
+  display: inline-block;
+}
+
+.imagen img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
+  display: block;
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .uoc-container {
   max-width: 800px;
@@ -21,7 +105,7 @@ body {
   padding: 2rem;
   border-radius: 2rem;
   text-align: center;
-  background-color: #fff;
+  //background-color: #fff;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
@@ -43,7 +127,7 @@ body {
   font-family: $font-family-serif;
   font-size: 24px;
   font-weight: 700;
-  color: $uoc-corporate;
+  //color: $uoc-corporate;
 
   @media (min-width: $mqMinWidth) {
     font-size: 36px;

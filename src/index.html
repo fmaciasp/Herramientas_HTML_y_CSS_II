@@ -5,22 +5,96 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <title>CARNAVAL DE CÁDIZ</title>
   </head>
   <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-      <p>Probando la integración continua</p>
+    <div class="container">
+      <div class="intro_pagina">
+        <header>
+          <a class="img_link" href="index.html">
+              <picture>
+                  <img src="assets/images/logo-negro.svg" srcset="assets/images/logo-negro.svg 2x" alt="Logo Cádiz" width="292" height="122">
+              </picture>
+          </a>
+          <nav class="nav_detalle">
+              <ul class="accesos_nav">
+                  <li class="li_menu active"><a class="item_menu" href="index.html">Concurso</a></li>
+                  <li class="li_menu"><a class="item_menu" href="carnaval_calle.html">Carnaval de la calle</a></li>
+              </ul>
+            </nav>
+      </header>
+      </div>
+      <div class="carnaval-container">
+        <h1 class="title">COAC, Concurso Oficial de Agrupaciones Carnavalescas</h1>
+        <div class="introduccion">
+          <p>
+            El <span class="resaltar">Gran Teatro Falla</span> atrae durante más de 20 días la atención de miles de personas, al acoger el Concurso de Agrupaciones del Carnaval de Cádiz. Los Carnavales, declarados de Interés Turístico Internacional, son las fiestas más importantes de la ciudad. El pueblo entero se disfraza y se echa a la calle para vivir la alegría, las risas y el desenfreno de esta celebración en medio de <span class="resaltar">coros, chirigotas, comparsas, cuartetos y romanceros</span>, que parodian y critican en tono de sátira, todos los acontecimientos de actualidad del año. Una parodia inigualable, donde la guasa gaditana tiene su punto culminante, con un tono burlón, desvergonzado y atrevido, que no podría darse en ninguna otra parte del mundo. Es muy típipco y casi de obligado cumplimiento que cada agrupación que pisa las tablas del Gran Teatro Falla interprete una letra cantándole a Cádiz, y por ello hay infinidad de letras que hablan de la ciudad
+          </p>
+          <p>
+            <span class="resaltar">BARRIO DE LA VIÑA</span>. Es el barrio gaditano por excelencia, acogedor y amigable fuente de inspiración de las letras carnavalescas. Escenario idóneo para probar la típica caballa con piriñaca, se asoma al mar en <span class="resaltar">La Caleta</span>, la más representativa de las playas de la capital que se distribuyen a lo largo de 3 km. De costa (Santa María del Mar, Cortadura y La Victoria).
+          </p>
+        </div>
+        <div class="modalidad coro">
+          <h2>Coros</h2>
+          <p>
+            Un coro de carnaval es un tipo de agrupación carnavalesca genuina de Cádiz que sale a la calle en <span class="resaltar">bateas o carrozas</span> a cantar y ofrecer coplas al pueblo.
+          </p>
+          <figure class="imagen">
+            <picture>
+              <source srcset="./assets/images/garabatos.jpeg?as=webp&width=1005" type="image/webp" />
+              <img src="assets/images/garabatos.jpeg" alt="Coro Los Garabatos, año 2020" >
+            </picture>
+            <figcaption>Coro Los Garabatos, año 2020</figcaption>
+          </figure>
+
+         
+          <p>
+            Puede contener de 12 a 45 componentes (35 voces y 10 orquesta), los cuales cantan en diferentes voces: tenor, segunda y bajo. La orquesta es de pulso y púa y los instrumentos utilizados son la guitarra, la bandurria y el laúd. Su repertorio se compone de presentación, <span class="resaltar">tangos</span>, cuplés, estribillos y popurrí.
+          </p>
+        </div>
+        <div class="modalidad comparsa">
+          <h2>Comparsas</h2>
+          <p>
+            El creador de esta modalidad en el carnaval de Cádiz, tal como se conoce hoy día, fue Paco Alba. Entró como modalidad en el COAC en 1960 a mano de su creador Paco Alba. Es la modalidad más comprometida. La comparsa, en el Carnaval de Cádiz, es realmente una chirigota más fina, es decir, una estilización de ésta. Mientras la chirigota busca un aire paródico o esperpéntico, la comparsa busca una crítica poética más exigente, y un repertorio musical más elaborado, verbigracia la utilización de tres guitarras, frente a tan sólo las dos de la modalidad de chirigota.8​
+          </p>
+          <figure class="imagen">
+            <picture>
+              <source srcset="./assets/images/perro_andaluz.jpg?as=webp&width=1005" type="image/webp" />
+              <img src="assets/images/perro_andaluz.jpg" alt="Comparsa El perro andaluz, año 2018" width="1005" height="670">
+            </picture>
+            <figcaption>Comparsa El perro andaluz, año 2018</figcaption>
+          </figure>
+          <p>
+            Está compuesta desde 12 hasta 15 componentes que cantan en diferentes voces: octavilla, contralto, tenor y segunda. Se acompañan de dos o tres guitarras, un bombo, una caja y pitos o güiros. Su repertorio, al igual que el de la chirigota, se compone de presentación, <span class="resaltar">pasodobles</span>, cuplés, estribillo y popurrí.
+          </p>
+        </div>
+        <div class="modalidad chirigota">
+          <h2>Chirigotas</h2>
+          <p>
+            La chirigota está compuesta por un máximo de 12 componentes y un mínimo de 7, que interpretan el repertorio como mínimo a dos voces. La voz que suele usar la chirigota es el tenor, que lleva la melodía. Esta voz se acompaña de segundas voces, como por ejemplo, la segunda (barítono), el contralto, la tercera (descendencia de la segunda), la octavilla y a veces con bajos. La chirigota se acompaña musicalmente de un bombo, una caja, dos guitarras y de los güiros. El repertorio que interpretan las chirigotas que se presentan al Concurso Oficial de Agrupaciones Carnavalescas consta de una presentación (no necesariamente con música inédita) que esté relacionada con el tipo (disfraz) que lleva esa agrupación, dos pasodobles (con música original de la agrupación), dos cuplés (con música original), un estribillo (cantados al final de cada cuplé y también originales) que esté relacionado con el tipo de la agrupación y con un popurrí (dividido en cuartetas) que también hace referencia al tipo de forma burlesca y humorística. En la chirigota, a diferencia de las comparsas y los coros de carnaval, lo que más puntos da a la agrupación son los dos <span class="resaltar">cuplés</span> más el estribillo
+          </p>
+          <figure class="imagen">
+            <picture>
+              <source srcset="./assets/images/esto_si_que_es_una_chirigota.jpeg?as=webp&width=1005" type="image/webp" />
+              <img src="assets/images/esto_si_que_es_una_chirigota.jpeg" alt="Chirigota Esto sí que es una chirigota, año 2014" width="1005" height="670">
+            </picture>
+            <figcaption>Chirigota Esto sí que es una chirigota, año 2014</figcaption>
+          </figure>
+        </div>
+        <div class="modalidad cuarteto">
+          <h2>Cuartetos</h2>
+          <p>
+            Aunque su nombre hace pensar que está compuesto por 4 componentes, los cuartetos en Cádiz además pueden ser de 3 y de 5. Se acompañan con claves o palos, pitos o güiros y ocasionalmente de una guitarra. Su jefe se compone de parodia, cuplés y tema libre. El plato fuerte del cuarteto es sin duda la <span class="resaltar">parodia</span>, donde representan una situación donde los distintos personajes hacen reír desde la más fina ironía.
+          </p>
+          <figure class="imagen">
+            <picture>
+              <source srcset="./assets/images/escuela_gladiadores.jpeg?as=webp&width=1005" type="image/webp" />
+              <img src="assets/images/escuela_gladiadores.jpeg" alt="Cuarteto Escuela de gladiadores, año 2023" width="1005" height="670">
+            </picture>
+            <figcaption>Cuarteto Escuela de gladiadores, año 2023</figcaption>
+          </figure>
+        </div>
+      </div>
     </div>
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
