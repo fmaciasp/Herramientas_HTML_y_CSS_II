@@ -46,7 +46,7 @@
     "sharp": "0.31.1",
     "stylelint": "^15.11.0",
     "stylelint-config-recommended-scss": "^13.0.0",
-    "stylelint-scss": "^5.2.1"
+    "stylelint-scss": "^5.3.0"
   },
   "dependencies": {
     "@fortawesome/angular-fontawesome": "^0.13.0",
